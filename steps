@@ -2,16 +2,17 @@
 
 clone the with (git clone git@github.com:omniaMagd93/playlist_task.git)
 
-database:
-        use mysql 
-                1- modify  /playlist_task/playlist_back/config/database.yml => 
-                       (username:  and password: ) --> with username and password of mysql.
+installation:-
+                database:
+                        use mysql 
+                                1- modify  /playlist_task/playlist_back/config/database.yml => 
+                                    (username:  and password: ) --> with username and password of mysql.
                 
-                2- in playlist_back open the terminal and write this command(rake db:create)
-                3- in playlist_back run command(bundle install)
-                4- in playlist_back rake db:migrate
-                5- in playlist_front run command(npm install vue)
-                6- in playlist_front run command(npm run serve)
+                                2- in playlist_back open the terminal and write this command(rake db:create)
+                                3- in playlist_back run command(bundle install)
+                                4- in playlist_back rake db:migrate
+                                5- in playlist_front run command(npm install vue)
+                                6- in playlist_front run command(npm run serve)
     
 steps:
         1- in playlist_back open the terminal and write this command(rails s)
