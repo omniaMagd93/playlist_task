@@ -1,0 +1,13 @@
+                                               use this playlist 
+steps:
+        1- in playlist_back open the terminal and write this command(rails s)
+        2- in playlist_front open the terminal and write this comman(npm run serve)
+        3- open the browser and write (localhost:8080) in url
+        
+links:
+        1-localhost:8080 => to get all singers
+        2-http://localhost:8080/add-singer => to add new singer
+        3-http://localhost:8080/songs/1 => to show all songs of singer_id = 1
+        4-http://localhost:8080/add-song/1 => to add new song to singer_id = 1
+
+
